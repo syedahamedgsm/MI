@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+.top {
+  background-color: #000000;
+}
+.navigation {
+  width:100%;
+}
+.first-container {
+  background-color: #FBFBFD;
+  width:100%;
+}
+.second-container {
+  color: #ffffff;
+  background-color: #000000;
+}
+.pix {
+  width:100%;
+}
+.third {
+  width: 90%;
+}
