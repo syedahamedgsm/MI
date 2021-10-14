@@ -1,5 +1,5 @@
-body {
-  overflow-x: hidden;
+div {
+  width: 100%;
 }
 .top {
   background-color: #000000;
@@ -20,4 +20,10 @@ body {
 }
 .third {
   width: 90%;
+}
+.color {
+  color: #ffffff;
+}
+.social {
+  font-size: 2rem;
 }
