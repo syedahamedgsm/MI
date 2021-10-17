@@ -1,11 +1,13 @@
+
+footer {
+  text-align: center;
+  padding: 25px 0;
+}
 div {
   width: 100%;
 }
 .top {
   background-color: #000000;
-}
-.navigation {
-  width:100%;
 }
 .first-container {
   background-color: #FBFBFD;
@@ -15,9 +17,6 @@ div {
   color: #ffffff;
   background-color: #000000;
 }
-.pix {
-  width:100%;
-}
 .third {
   width: 90%;
 }
@@ -26,4 +25,5 @@ div {
 }
 .social {
   font-size: 2rem;
+  color: #000;
 }
