@@ -1,17 +1,16 @@
-
+html, body, div {
+  width: 100%;
+}
 footer {
   text-align: center;
   padding: 25px 0;
 }
-div {
-  width: 100%;
-}
 .top {
   background-color: #000000;
+  width: auto;
 }
 .first-container {
   background-color: #FBFBFD;
-  width:100%;
 }
 .second-container {
   color: #ffffff;
@@ -26,4 +25,7 @@ div {
 .social {
   font-size: 2rem;
   color: #000;
+}
+section {
+  width: 100%;
 }
