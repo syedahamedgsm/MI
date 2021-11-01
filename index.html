@@ -10,6 +10,7 @@
   <script src="https://kit.fontawesome.com/f907aea4dd.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body>
@@ -17,25 +18,25 @@
     <nav class="navbar navbar-expand-md ps-3 fixed-top navbar-dark top p-3" width=100%>
       <img src="images/logo.png" alt="" width="3%">
       <a class="navbar-brand fs-1 ps-3">Xiaomi</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <div class="navbar-nav ms-auto me-3">
-          <a class="nav-link active me-3" aria-current="page" href="#home">Home</a>
+      <div class="collapse navbar-collapse" id="nav-bar">
+        <div class="navbar-nav ms-auto me-3 nav-bar">
+          <a class="nav-link active me-3" onclick="home()" href="#home">Home</a>
           <dt class="nav-link active me-3">|</dt>
-          <a class="nav-link active me-3" href="#features">Features</a>
+          <a class="nav-link me-3" onclick="features()" href="#features">Features</a>
           <dt class="nav-link active me-3">|</dt>
-          <a class="nav-link active me-3" href="#pricing">Pricing</a>
+          <a class="nav-link me-3" onclick="pricing()" href="#pricing">Pricing</a>
           <dt class="nav-link active me-3">|</dt>
-          <a class="nav-link active me-3" href="#copyright">About</a>
+          <a class="nav-link me-3" onclick="about()" href="#copyright">About</a>
         </div>
       </div>
     </nav>
 
     <div class="first-container navbar-light" style="padding:15% 0 10%">
       <div class="row">
-        <div class="col-md-6 col-lg-6 fs-4" style="padding: 15% 0 0 10.5%">
+        <div class="col-md-5 col-lg-6 fs-4" style="padding: 15% 0 0 10.5%">
           <a class="navbar-brand fs-1">Mi MIX Alpha</a>
           <p>5G Surround Display Concept Smartphone</p>
           <p></p>
@@ -113,7 +114,7 @@
     <div class="third-container navbar-light mt-2" style="padding:5% 0">
       <div class="row">
         <div class="col-sm-3 col-md-5 col-lg-5 ps-5">
-          <img src="images/phone.png" class="price-img mb-5"alt="" width="80%;">
+          <img src="images/phone.png" class="price-img mb-5" alt="" width="80%;">
         </div>
         <div class="col-sm-5 col-md-4 col-lg-6 fs-4 ps-5 pt-5 mb-5" style="background-color: #FBFBFD;">
           <p class="navbar-brand fs-1">Xiaomi Mi Mix Alpha</p>
@@ -166,7 +167,7 @@
     </footer>
     <hr>
   </section>
-
+  <script src="index.js"></script>
 </body>
 
 </html>
